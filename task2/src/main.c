@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <time.h>
 
 int iteration(int number, int degree)
 {
@@ -31,6 +32,7 @@ int main()
 	int number;
 	int degree;
 	int rez;
+	time_t start, end;
 	printf("Введіть чило:\n");
 	scanf("%d", &number);
 	printf("Введіть степінь:\n");
@@ -38,13 +40,16 @@ int main()
 	int key;
 	printf("Введіть ключ режиму(0 - рекурсивний метод, 1 - ітераційний метод):\n");
 	scanf("%d", &key);
+	start = clock();
 	if (key == 0) {
 		rez = recursion(number, degree);
 	}
 	if (key == 1) {
 		rez = iteration(number, degree);
 	}
-	printf("number в степени degree:\n%d", rez);
+	end = clock();
+	printf("number в степени degree:\n%d\n", rez);
+	printf("Час витрачений на розрахунок:\n%ld", (end - start));
 	
 	return 0;
 }
