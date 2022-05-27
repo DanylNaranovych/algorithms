@@ -23,7 +23,7 @@ void insert_team(struct Factory *f, size_t pos, struct Team *t) {
                                      // Te s t E l e m e n
   memcpy(new_array + pos, t, sizeof(struct Team));
   memcpy(new_array + pos + 1, f->t + pos, (size - pos) * sizeof(struct Team));
-  //delete[] f->t;
+  // delete[] f->t;
   f->t = new_array;
   size++;
 }

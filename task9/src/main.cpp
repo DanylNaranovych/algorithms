@@ -1,4 +1,4 @@
-#define N 100
+#define N 10000
 #include <cstdlib>
 #include <ctime>
 #include <iostream>

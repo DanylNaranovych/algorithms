@@ -2,7 +2,7 @@
 #include <ctime>
 #include <iostream>
 using namespace std;
-#define N 1000
+#define N 20
 int temp = 0;
 
 void SelectionSort(int a[]) {

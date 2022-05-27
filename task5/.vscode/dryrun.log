@@ -1,3 +1,4 @@
+make --dry-run --always-make --keep-going --print-directory
 make: Entering directory '/home/kali/algorithms/task5'
 rm -rf dist
 make: Leaving directory '/home/kali/algorithms/task5'

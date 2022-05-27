@@ -1,12 +1,13 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # GNU Make 4.3
+ 
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2020 Free Software Foundation, Inc.
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu May 26 03:23:41 2022
+# Make data base, printed on Fri May 27 13:03:01 2022
 
 # Variables
 
@@ -15,7 +16,7 @@ GDK_BACKEND = x11
 # environment
 LC_ALL = C
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-845e655f-1d92-49bc-9e7f-605a20bc201e.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-738844c7-403b-492d-be9a-ea60673bc494.sock
 # environment
 VSCODE_CWD = /home/kali
 # environment
@@ -79,7 +80,7 @@ LESS_TERMCAP_ue = [0m
 # environment
 MFLAGS = -pqrR
 # environment
-SSH_AUTH_SOCK = /tmp/ssh-XXXXXXtd9BvF/agent.768
+SSH_AUTH_SOCK = /tmp/ssh-XXXXXXcPI0x0/agent.776
 # default
 .SHELLFLAGS := -c
 # environment
@@ -95,13 +96,13 @@ MAKEFILE_LIST := Makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 2924
+VSCODE_PID = 1586
 # environment
 XDG_SESSION_TYPE = x11
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-SESSION_MANAGER = local/kali:@/tmp/.ICE-unix/768,unix/kali:/tmp/.ICE-unix/768
+SESSION_MANAGER = local/kali:@/tmp/.ICE-unix/776,unix/kali:/tmp/.ICE-unix/776
 # automatic
 *F = $(notdir $*)
 # environment
@@ -177,7 +178,7 @@ GTK_MODULES = gail:atk-bridge
 # default
 MAKE_VERSION := 4.3
 # environment
-SSH_AGENT_PID = 851
+SSH_AGENT_PID = 860
 # environment
 _ = /usr/share/code/code
 # environment
@@ -277,8 +278,8 @@ test.bin: test/test.c
 #  recipe to execute (from 'Makefile', line 14):
 	$(CC) $(C_OPTS) $< -o ./dist/$@
 
- 
 clean:
+ 
 #  Implicit rule search has not been done.
 #  Implicit/static pattern stem: ''
 #  File does not exist.
@@ -374,6 +375,6 @@ test: clean prep compile
 # strcache performance: lookups = 50 / hit rate = 56%
 # hash-table stats:
 # Load=22/8192=0%, Rehash=0, Collisions=0/50=0%
-# Finished Make data base on Thu May 26 03:23:41 2022
+# Finished Make data base on Fri May 27 13:03:01 2022
 
  

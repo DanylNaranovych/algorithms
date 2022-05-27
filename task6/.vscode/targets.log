@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu May 26 12:11:41 2022
+# Make data base, printed on Fri May 27 14:26:37 2022
 
 # Variables
 
@@ -17,7 +17,7 @@ LC_ALL = C
 # makefile (from 'Makefile', line 3)
 C_OPTS = -std=gnu++2b -g -Wall -Wextra -Werror -Wformat-security -Wfloat-equal -Wshadow -Wconversion -Wlogical-not-parentheses -Wnull-dereference -Wno-unused-variable -Werror=vla $(LAB_OPTS)
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-17598b2c-4ef1-4fd3-b70e-fac15bbb579f.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-8899060c-3dfb-4835-963b-659670c6a1b6.sock
 # environment
 VSCODE_CWD = /home/kali
 # environment
@@ -85,7 +85,7 @@ LESS_TERMCAP_ue = [0m
 # environment
 MFLAGS = -pqrR
 # environment
-SSH_AUTH_SOCK = /tmp/ssh-XXXXXXtd9BvF/agent.768
+SSH_AUTH_SOCK = /tmp/ssh-XXXXXXcPI0x0/agent.776
 # default
 .SHELLFLAGS := -c
 # environment
@@ -101,13 +101,13 @@ MAKEFILE_LIST := Makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 2924
+VSCODE_PID = 1586
 # environment
 XDG_SESSION_TYPE = x11
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-SESSION_MANAGER = local/kali:@/tmp/.ICE-unix/768,unix/kali:/tmp/.ICE-unix/768
+SESSION_MANAGER = local/kali:@/tmp/.ICE-unix/776,unix/kali:/tmp/.ICE-unix/776
 # automatic
 *F = $(notdir $*)
 # environment
@@ -181,7 +181,7 @@ GTK_MODULES = gail:atk-bridge
 # default
 MAKE_VERSION := 4.3
 # environment
-SSH_AGENT_PID = 851
+SSH_AGENT_PID = 860
 # environment
 _ = /usr/share/code/code
 # environment
@@ -355,6 +355,6 @@ prep:
 # strcache performance: lookups = 38 / hit rate = 50%
 # hash-table stats:
 # Load=19/8192=0%, Rehash=0, Collisions=0/38=0%
-# Finished Make data base on Thu May 26 12:11:41 2022
+# Finished Make data base on Fri May 27 14:26:37 2022
 
  
