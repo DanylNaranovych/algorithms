@@ -1,0 +1,9 @@
+Kharkiv
+350
+1.4
+Kyiv
+839
+2.9
+Dnipro
+410
+1
