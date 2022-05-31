@@ -37,7 +37,21 @@ task5
     └── main.cpp
 ```
 
-## 3 Варіанти використання
+## 3 Блок-схеми
+
+### 3.1 printVec
+
+![printVec](/assets/1.png)
+
+### 3.2 printVecLikeArr
+
+![printVecLikeArr](/assets/2.png)
+
+### 3.3 printArray
+
+![printArray](/assets/3.png)
+
+## 4 Варіанти використання
 
 Для демонстрації результатів кожної задачі використовується:
 

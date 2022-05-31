@@ -47,7 +47,21 @@ task9
     └── main.cpp
 ```
 
-## 3 Варіанти використання
+## 3 Блок-схеми
+
+### 3.1 InterpolSearch
+
+![InterpolSearch](/assets/1.png)
+
+### 3.2 ExponentialSearch
+
+![ExponentialSearch](/assets/2.png)
+
+### 3.3 bubble_sort
+
+![bubble_sort](/assets/3.png)
+
+## 4 Варіанти використання
 
 Для демонстрації результатів кожної задачі використовується:
 

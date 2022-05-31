@@ -54,7 +54,17 @@ task11
     └── main.cpp
 ```
 
-## 3 Варіанти використання
+## 3 Блок-схеми
+
+### 3.1 BubblePlaseSort
+
+![BubblePlaseSort](/assets/1.png)
+
+### 3.2 SelectionSort
+
+![SelectionSort](/assets/2.png)
+
+## 4 Варіанти використання
 
 Для демонстрації результатів кожної задачі використовується:
 
